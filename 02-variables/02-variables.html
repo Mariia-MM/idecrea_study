@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Variables</title>
+</head>
+<body>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded',function ( ) {
+
+
+        // Actividad 2-1
+
+        const text = '   Compartir el conocimiento es el acto más fundamental de la amistad. Porque es una forma de dar algo sin perder nada   .   ';
+
+        console.log('The text transformed to Upper case:',text.toUpperCase());
+        console.log('The text transformed to Lower case:',text.toLowerCase());
+        console.log('The text length is:',text.length);
+        console.log('The text without freespace :',text.replaceAll(' ', ''));
+
+
+
+
+        //Actividad 2-2
+
+        const mbYear = 1958;
+        let dateNow = new Date();
+
+        let mAge = dateNow.getFullYear() - mbYear;
+
+        console.log('Madonna tiene:', mAge, 'años.');
+
+
+
+    })
+
+
+
+</script>
+</body>
+</html>
