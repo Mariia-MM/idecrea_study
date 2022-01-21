@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>condicionales</title>
+</head>
+<body>
+
+<script>
+    document.addEventListener('DOMContentLoaded',function ( ) {
+
+        // // Actividad 3-1 (Adivinanza)
+        //
+        //     let answer = prompt('Tengo agujas pero no sé coser, tengo números pero no sé leer, las horas te doy, ¿Sabes quién soy?')
+        //
+        //     if (answer.toLowerCase().replaceAll(' ', '') !== 'el reloj'.replaceAll(' ', '')){
+        //         alert('the answer is wrong!')
+        //     } else {alert(answer)}
+        //
+
+
+        // //Actividad 3-2 (Portero)
+        //
+        //    let bYear = +prompt(' When did you born (year)? ');
+        //    let dateNow = new Date();
+        //
+        //     if(dateNow.getFullYear()-bYear >= 18){
+        //            alert('welcome')
+        //        }
+        //        else {
+        //            alert(' Go away!')
+        //        }
+        //
+
+        //Actividad 3-3 (Frases)
+
+        let animal = prompt('Enter the name of animal');
+        let sex = prompt('Enter sex of the animal (male / female )');
+        let quantityOfChildren = +prompt('Enter the quantity of children') ;
+
+        if(sex.toLowerCase().replaceAll(' ', '')==='male'){
+            alert(`El papa ${animal} tiene ${quantityOfChildren} hijos`)
+        } else if(sex.toLowerCase().replaceAll(' ', '')==='female' ){
+            alert(`La mama ${animal} tiene ${quantityOfChildren} hijos`)
+        } else{
+            alert('the entrance is wrong')
+        }
+
+
+
+
+    })
+
+</script>
+
+</body>
+</html>
